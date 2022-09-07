@@ -1,0 +1,60 @@
+#table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table thead {
+    height: 50px;
+}
+
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    height: 40px;
+    width: 200px;
+    text-align: right;
+    font-size: 13px;
+}
+
+th {
+    font-weight: 500;
+}
+
+table tr th:first-child,
+table tr td:first-child {
+    text-align: left;
+    padding-left: 15px;
+}
+
+table tfoot th, table tfoot td {
+    height: 45px;
+    font-weight: 600;
+}
+
+table tfoot {
+    background-color: #fafbfb;
+}
+
+/* dashboard */
+
+table {
+    background-color: #fff;
+    /* padding-top: 10px; */
+    border-radius: 10px;
+    display: block;
+}
+
+.content_table {
+    max-width: 1050px;
+    margin: 50px auto 50px auto;
+}
+
+table tr th:last-child {
+    width: 250px;
+    padding-right: 15px;
+}
+
+table tr td:last-child {
+    padding-right: 15px;
+}

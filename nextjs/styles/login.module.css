@@ -1,0 +1,88 @@
+.wrapper {
+    position: absolute;
+    width: 450px;
+    background-color: #fff;
+    border-radius: 5px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 3px 3px #888888;
+}
+
+.form_header {
+    text-align: center;
+    font-size: 18px;
+    color: #757373;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.form_group {
+    width: max-content;
+    margin: 30px auto;
+}
+
+.form_input {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    padding: 12px 14px;
+    font-size: 13px;
+    border-radius: 2px;
+    border: 1px solid #b3b3b3;
+    background-color: #f9f4f4;
+    outline: none;
+}
+
+.form_input:hover {
+    border-color: #1dbfaf;
+}
+
+.form_input::placeholder {
+    color: #b6b0b0;
+}
+
+.form_group.invalid .form_input {
+    border-color: #f33a58;
+}
+
+.form_group.invalid .form-message {
+    color: #f33a58;
+}
+
+.form-message {
+    font-size: 12px;
+    line-height: 16px;
+    /* padding: 4px 0 0; */
+}
+
+.login_submit {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.btn {
+    padding: 5px 20px;
+    margin: 0 5px;
+    border: none; 
+    border-radius: 3px;
+    background-color: #f28e19;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow: 0 3px 3px #888888;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.register {
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 23.6px;
+    margin: 0 10px;
+    color: #59a0f4;
+}

@@ -1,0 +1,111 @@
+.content {
+    margin-top: 44px;
+    margin-left: 280px;
+}
+
+.content_table {
+    max-width: 1050px;
+    margin: 50px auto 50px auto;
+}
+
+.table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.input_graph {
+    display: grid;
+    grid-template-columns: 50% auto;
+    column-gap: 35px;
+    margin-top: 25px;
+}
+
+.graphic {
+    background-color: #fff;
+}
+
+#Chart {
+    height: 100%;
+}
+
+.form {
+    background-color: #fff;
+}
+
+.form_group {
+    /* width: max-content; */
+    margin: 30px auto;
+}
+
+
+
+.form_input {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding: 22px 14px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    background-color: #f9f4f4;
+    box-shadow: 0 3px 3px #888888;
+    outline: none;
+}
+
+.form_input::placeholder {
+    color: #b6b0b0;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border: none; 
+    border-radius: 3px;
+    background-color: #f28e19;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* responsive */
+@media only screen and (max-width: 415px) {
+    .content {
+        margin: 0;
+    }
+    
+    .content_table {
+        max-width: 90%;
+    }
+    
+    .table {
+        display: none;
+    }
+
+    .input_graph {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .graphic {
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+}
